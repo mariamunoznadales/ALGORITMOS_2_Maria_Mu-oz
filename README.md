@@ -3,6 +3,7 @@
 **Código:**
 
 def factorial(n):
+    
     # Caso base: el factorial de 0 es 1
     if n == 0:
         return 1
