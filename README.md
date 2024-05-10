@@ -15,7 +15,7 @@ def factorial(n):
 
 *Hipótesis:*
 
-La función factorial calcula el factorial de un número entero no negativo, utilizando un enfoque recursivo. El factorial de un número n, denotado como n!
+La función factorial calcula el factorial de un número entero no negativo, utilizando un enfoque recursivo. El factorial de un número n, denotado como
 n!, es el producto de todos los números enteros positivos desde 1 hasta n.
 
 *Entrada:*
@@ -71,6 +71,33 @@ Compara 34 y 32, intercambia porque 34 es mayor que 32: [7, 23, 32, 34, 5]
 Compara 34 y 5, intercambia porque 34 es mayor que 5: [7, 23, 32, 5, 34]
 
 Ahora el número más grande (34) está al final y ya está en su lugar correcto. Se repite este proceso para todos los elementos hasta que la lista esté completamente ordenada.
+
+Iteración 2:
+
+Comparar 7 y 23: no intercambiar
+
+Comparar 23 y 32: no intercambiar
+
+Comparar 32 y 5: intercambiar (lista: [7, 23, 5, 32, 34])
+
+Iteración 3:
+
+Comparar 7 y 23: no intercambiar
+
+Comparar 23 y 5: intercambiar (lista: [7, 5, 23, 32, 34])
+
+Iteración 4:
+
+Comparar 7 y 5: intercambiar (lista: [5, 7, 23, 32, 34])
+
+Ahora la lista está ordenada: [5, 7, 23, 32, 34].
+
+
+
+
+
+
+
 
 
 
