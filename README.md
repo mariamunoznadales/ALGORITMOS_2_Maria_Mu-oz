@@ -41,6 +41,7 @@ La función no modifica ninguna variable global ni altera ningún estado fuera d
 ## Ordenación
 
 **Bubble Sort**
+
 1- ¿Qué es?
 
 Bubble sort es un método muy común para organizar listas.La idea es revisar la lista de inicio a fin, intercambiando elementos que están en el orden incorrecto, y repetir el proceso hasta que no se necesiten más cambios y la lista esté ordenada.
@@ -62,9 +63,13 @@ Números para ordenar: [34, 7, 23, 32, 5]
 Pasada 1:
 
 Compara 34 y 7, intercambia porque 34 es mayor que 7: [7, 34, 23, 32, 5]
+
 Compara 34 y 23, intercambia porque 34 es mayor que 23: [7, 23, 34, 32, 5]
+
 Compara 34 y 32, intercambia porque 34 es mayor que 32: [7, 23, 32, 34, 5]
+
 Compara 34 y 5, intercambia porque 34 es mayor que 5: [7, 23, 32, 5, 34]
+
 Ahora el número más grande (34) está al final y ya está en su lugar correcto. Se repite este proceso para todos los elementos hasta que la lista esté completamente ordenada.
 
 
